@@ -19,7 +19,7 @@ const Review = ({ reviews, setReviews }) => {
     <main>
       <div className="review">
         <img className="person-img" src={review.image} alt={review.name} />
-        <p className="author" id={`author-${review.id}`}>
+        <p className="author" id={`author-${review.id}.author`}>
           Name: {review.name}
         </p>
         <p className="job">Job Role: {review.job}</p>
