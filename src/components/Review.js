@@ -6,13 +6,13 @@ const Review = ({reviews, setReviews}) => {
             {reviews.map((review, index) => (
                 <div className='review'>
                     <img className='person-img' src={review.image} alt={review.name} />
-                    <p className='author' id={`auther-${review.id}`}>Name: {review.name}</p>
+                    <p className='author' id={`author-${review.id}`}>Name: {review.name}</p>
                     <p className='job'>Job Role: {review.job}</p>
                     <p className='info'>{review.text}</p>
                     <div className='buttons'>
                         <button className='prev-btn'>Previous</button>
                         <button className='next-btn'>Next</button>
-                        <button className='rendom-btn'>surprise me</button>
+                        <button className='random-btn'>surprise me</button>
                     </div>
                 </div>
             ))}
