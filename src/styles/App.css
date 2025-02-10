@@ -3,10 +3,35 @@ h1 {
     text-align: center;
     }
     
-
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
 button{
-    color: #27aedb;
+    color: black;
     text-align: center;
-    justify-content: center;
-    align-items: center;
+    padding: 10px;
+    background-color: #27aedb;
+    border-radius: 5px;
+    border: none;
+}
+
+.reviews {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+.review {
+    width: 340px;
+    height: 550px;
+    border: 2px solid #27aedb;
+    padding: 10px;
+}
+
+.review>img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
 }
